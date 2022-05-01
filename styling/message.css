@@ -1,0 +1,93 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	/* background-color: #A8D7EF; */
+
+	width: 100%;
+	height: 100%;
+}
+
+div.main {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	background-color: #060416;
+}
+div.home-container {
+	background-color: white;
+	width: 40%;
+	height: 100%;
+	display: flex;
+	padding-right: 5%;
+	padding-left: 5%;
+	flex-direction: column;
+	position: relative;
+}
+
+nav {
+	height: 10%;
+	width: 100%;
+	background-color: #060416;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+a {
+	width: 20%;
+	display: flex;
+	border: 1px solid white;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	border: 2px solid black;
+	background-color: #274e5e;
+}
+a:hover p {
+	font-size: 20;
+}
+
+form {
+	z-index: 4;
+	margin-top: 15%;
+	align-self: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+button {
+	background-color: #060416;
+	color: white;
+	margin: 20px 0;
+	padding: 15;
+	border: none;
+	cursor: pointer;
+	width: 30%;
+	border-radius: 7px;
+}
+span {
+	font-size: 17px;
+	color: white;
+	font-weight: 500;
+}
+
+p.textarea-header {
+	position: absolute;
+	left: 15%;
+	top: 28%;
+	font-weight: 600;
+	font-size: 20;
+}
